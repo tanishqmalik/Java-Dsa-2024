@@ -1,13 +1,18 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class hello{
-    public static void main(String args[]){
+public class fiasco {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("enter an integer");
-
-        int n = scanner.nextInt();
-
-        System.out.println(n);
+        
+        System.out.println("Enter your name:");
+        String name = scanner.nextLine();
+        
+        System.out.println("Enter your age:");
+        int age = scanner.nextInt();
+        
+        System.out.println("Your name is " + name + " and your age is " + age);
+        System.out.println(name.length());
+        
 
         scanner.close();
     }

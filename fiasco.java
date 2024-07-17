@@ -32,9 +32,13 @@
         
 //         System.out.println("Enter your age:");
 //         int age = scanner.nextInt();
+
+
+//         System.out.println("Enter your number:");
+//         int number = scanner.nextInt();
         
-//         System.out.println("Your name is " + name + " and your age is " + age);
-        
+//         System.out.println("Your name is " + name + " and your age is " + age + " " + number +" ");
+//         System.out.println(name.length());
 
 //         scanner.close();
 //     }
@@ -114,22 +118,25 @@
 
 
 
-public class fiasco {
-    public static void main(String[] args) {
+// public class fiasco {
+//     public static void main(String[] args) {
 
-        System.out.println("numbers upto 10");
+//         System.out.println("numbers upto 10");
 
-        for(int i=0; i<10; i++){
-            System.out.println(i);
-        }
+//         for(int i=0; i<10; i++){
+//             System.out.println(i);
+//         }
 
-        System.out.println("even numbers");
+//         System.out.println("even numbers");
 
 
-        for(int i=0; i<10; i++){
-            if( i%2==0){
-                System.out.println(i);
-            }
-        }
-    }
-}
+//         for(int i=0; i<10; i++){
+//             if( i%2==0){
+//                 System.out.println(i);
+//             }
+//         }
+//     }
+// }
+
+
+// wap to impliment calculator in which input is taken from user
