@@ -17,6 +17,7 @@ public class Armstrong {
             count++;
             n = n / 10;
         }
+        
         double sum = 0;
 
         for (int i = 0; i < count; i++) {
@@ -37,3 +38,5 @@ public class Armstrong {
         scanner.close();
     }
 }
+
+

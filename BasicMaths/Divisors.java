@@ -18,4 +18,3 @@ public class Divisors {
         System.out.println();
     }
 }
- 
