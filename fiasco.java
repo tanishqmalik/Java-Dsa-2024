@@ -222,42 +222,46 @@
 
 
 
-// import java.util.*;
+import java.util.*;
 
-// public class fiasco{
-//     public static void main(String[] args){
-//         Scanner scanner = new Scanner(System.in);
+public class fiasco{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
 
-//         String ab = "tanishq";
-//         String result= "";
+        String ab = "tanishq";
+        String result= "";
 
-//         int sum =0;
+        int sum =0;
 
 
         
-//         int limit = scanner.nextInt();
+        int limit = scanner.nextInt();
 
-//         int[] arr = new int[limit];
+        int[] arr = new int[limit];
 
-//         for(int i=0; i<limit; i++){
-//             arr[i]=scanner.nextInt();
-//         }
+        for(int i=0; i<limit; i++){
+            arr[i]=scanner.nextInt();
+        }
 
-//         for(int i=0; i<arr.length; i++){
-//             sum = sum + arr[i];
-//         }
-
-
-//         System.out.println(sum);
+        for(int i=0; i<arr.length; i++){
+            sum = sum + arr[i];
+        }
 
 
-//         for(int i=ab.length()-1; i>=0; i--){
-//             result = result + ab.charAt(i);
-//         }
+        System.out.println(sum);
 
-//         System.out.println(result);
-//     }
-// }
+
+        for(int i=ab.length()-1; i>=0; i--){
+            result = result + ab.charAt(i);
+        }
+
+        System.out.println(result);
+    }
+}
 
 
 // wap to impliment fibonacci series
+//  wap to check the given number is palindrome or not
+// wap to display the ascii value of the char input by the 
+
+// random number print 

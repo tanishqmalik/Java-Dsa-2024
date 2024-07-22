@@ -1,19 +1,36 @@
-import java.util.Scanner;
+import java.util.*;
 
-public class fiasco {
-    public static void main(String[] args) {
+public class fiasco{
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("Enter your name:");
-        String name = scanner.nextLine();
-        
-        System.out.println("Enter your age:");
-        int age = scanner.nextInt();
-        
-        System.out.println("Your name is " + name + " and your age is " + age);
-        System.out.println(name.length());
-        
 
-        scanner.close();
+        String ab = "tanishq";
+        String result= "";
+
+        int sum =0;
+
+
+        
+        int limit = scanner.nextInt();
+
+        int[] arr = new int[limit];
+
+        for(int i=0; i<limit; i++){
+            arr[i]=scanner.nextInt();
+        }
+
+        for(int i=0; i<arr.length; i++){
+            sum = sum + arr[i];
+        }
+
+
+        System.out.println(sum);
+
+
+        for(int i=ab.length()-1; i>=0; i--){
+            result = result + ab.charAt(i);
+        }
+
+        System.out.println(result);
     }
 }
