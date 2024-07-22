@@ -140,3 +140,124 @@
 
 
 // wap to impliment calculator in which input is taken from user
+// ------------------ to find the factorial of a number in which input is taken from the user. take double 
+// ------------------- to find the fibonacci series
+
+
+// wap to calculate the gross salary of the employee  and also display the gross salsry in whuc
+
+
+// import java.util.*;
+
+// public class fiasco{
+//     public static void main(String[] args){
+//         Scanner scanner = new Scanner(System.in);
+//         int bs= scanner.nextInt();
+//         int hra = scanner.nextInt();
+//         int bsp = (5)*bs/100;
+//         int da = scanner.nextInt();
+//         int ta = scanner.nextInt();
+
+//         int result = bs + (10*hra)/100 + da*(bsp) + ta*bsp ;
+
+
+//         System.out.println(result);
+
+//     }
+// }
+
+
+// impliment calculator in java to perform all the basic airthmatic operation
+// in which all input should be taken from user
+
+
+// functions
+
+
+// import java.util.*;
+
+// public class fiasco{
+//     static void myMethod(String fname){
+//         System.out.println("hello" + fname);
+//     }
+
+//     public static void main(String[] args){
+        
+//         myMethod("hello");
+//     }
+// }
+
+
+// wap to display the basic report of stdent first name last name mail ph. number
+// in which all input should be taken from user
+
+
+// import java.util.*;
+
+// public class fiasco{
+//     // Scanner scanner = new Scanner(System.in);
+//     static void student(String name, int age , String mail){
+
+//         System.out.println(name +age + mail);
+//     }
+
+//     public static void main(String[] args){
+//         Scanner scanner = new Scanner(System.in);
+//         String name = scanner.nextLine();
+//         int age = scanner.nextInt();
+//         // System.out.println();
+//         // scanner.nextLine();
+//         String mail = scanner.nextLine();
+
+//         student(name,age, mail);
+//     }
+// }
+
+
+// to impliment calculator with the help of user defined function and input is taken from user
+
+
+
+// wap to reverse a string
+
+
+
+// import java.util.*;
+
+// public class fiasco{
+//     public static void main(String[] args){
+//         Scanner scanner = new Scanner(System.in);
+
+//         String ab = "tanishq";
+//         String result= "";
+
+//         int sum =0;
+
+
+        
+//         int limit = scanner.nextInt();
+
+//         int[] arr = new int[limit];
+
+//         for(int i=0; i<limit; i++){
+//             arr[i]=scanner.nextInt();
+//         }
+
+//         for(int i=0; i<arr.length; i++){
+//             sum = sum + arr[i];
+//         }
+
+
+//         System.out.println(sum);
+
+
+//         for(int i=ab.length()-1; i>=0; i--){
+//             result = result + ab.charAt(i);
+//         }
+
+//         System.out.println(result);
+//     }
+// }
+
+
+// wap to impliment fibonacci series
