@@ -1,0 +1,13 @@
+interfaces are used to implement a class in a program 
+which acts as a blueprint. it is declared using interface keyword
+
+how the interfaces are declared 
+using interface space classname
+
+different methods applay to interfaces based on declaration 
+static method 
+it is defined using static keyword
+abstarct 
+abstarct method interfaces which has the 
+default
+

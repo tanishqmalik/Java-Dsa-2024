@@ -1,0 +1,74 @@
+different types of access modifiers
+
+1.public :- anywhere access
+2.private :- only in that class related to 
+3. protected :- only to its  class and sub classes
+4. default:- if user didn't modify any modifier that its default 
+
+static: -which creates and destroyes only on in a program 
+
+void: - returns a data type
+
+java has two main ways to define a reusable code in a program those are method and functions
+
+methods and function allow users to encapsulate the data and return output as specific logic
+
+method part of a class 
+
+
+error is recoverable component at any particular point of time 
+types of error which the technology going to recover are 
+1. compile time error :-error occur at the time of program
+3. runtime occur :- at the time of excecuting of performing
+
+
+javac is not an internal or external command line ;- java is not installed or not compiled succesfully
+
+exception:- it is a irecoverable component which cannot be recovered at any particular point of time
+types of exception
+1 checked
+2. unchecked
+
+the process of handling an exception is known as exception handling 
+exceptions are handed using the two blogs:- try block and catch block 
+
+advantages:- different operation can be defined and can be supported ....arrays are used for easy indexing because its starts the value from zero while allocating 
+the aray 
+
+using the arrays.. the sufficient array can be managed and stored the main disadvantage of using an aaray is the size of an array is fixed
+
+
+if the size exceeds the value then it can result in a boundary 
+it is very difficult in the arrays to manage large dataset
+
+the array size is fixed and user cannot change its length in static allocation while in dynamic allocation the sets its length as per the 
+
+abstarction :- it is the process of hiding unneeccsory info ... it is nothing but partially implemented and partially unimplemneted in the program
+
+abstarct class can be sub class .. in the program 
+
+
+// access modifiers in java 
+private 
+protected
+public
+default
+
+
+public:- the class which is accessable inside the program for all the classes is known public
+the class which is accessable. it is used while developing api's, interfaces where the external code should be accessable to the part of the program
+
+protected:- a class which can accessable to its class and subclasses inside that package is protected
+
+if a programmer or user has not specified any access modifier or method in a program then the jvm itself takes default access modifier as package
+
+
+a constructor with multiple constructor with programs with in the same class is known as overloading constructor 
+in overloading constructor users will have multiple constructor , compiler chooses the right constructor based on teh arguments passed
+to execute the program
+
+constructors are initialized with a new keyword and constructor is involked automatically in program.. when there is no constructor declared and constructor are set to initialized the values as parameter 
+advantages of using constructors:- 
+
+constructors are used to initialized the objects so that the core will be flexible, easy to understand, maintainable , constructors are flexible because it allows a user to initialize the object in different ways
+constructor are consistent because they ensure the values to be correct 
