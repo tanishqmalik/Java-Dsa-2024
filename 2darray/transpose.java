@@ -48,6 +48,7 @@ public class transpose{
             }
             System.out.println();
         }
+        
 
         int[][] transpose = new int[arr[0].length][arr.length];
 
