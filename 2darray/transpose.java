@@ -60,8 +60,17 @@ public class transpose{
             // System.out.println();
         }
 
-                for(int i=0; i<arr[0].length; i++){
-            for(int j=0; j<arr.length; j++){
+        // for(int i=0; i<arr[0].length; i++){
+        //     for(int j=0; j<arr.length; j++){
+        //         System.out.print(transpose[i][j]);
+        //     }
+
+        //     System.out.println();
+        // }
+
+
+        for(int i=0; i<transpose.length; i++){
+            for(int j=0; j<transpose[0].length; j++){
                 System.out.print(transpose[i][j]);
             }
 

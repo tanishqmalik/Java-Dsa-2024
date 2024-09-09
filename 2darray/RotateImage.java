@@ -12,6 +12,9 @@ public class RotateImage {
         //     System.out.println();
         // }
 
+
+        System.out.println("-----------------");
+
         int rotateImage[][] = new int[arr[0].length][arr.length];
 
         for(int i=0; i<arr[0].length; i++){
@@ -26,5 +29,8 @@ public class RotateImage {
             }
             System.out.println();
         }
+        System.out.println("-----------------");
+
+
     }
 }
