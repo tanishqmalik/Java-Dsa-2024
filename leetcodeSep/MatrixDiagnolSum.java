@@ -21,6 +21,7 @@ public class MatrixDiagnolSum {
             sum= sum - result[len/2][len/2];
         }
 
+        
         // int left =0;
         // int right= result[0].length;
 
