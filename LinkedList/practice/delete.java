@@ -55,14 +55,24 @@ public class delete {
 
     public void deleteLast(){
         if(head==null){
-            
+            System.out.println("Nothing here to delete from last");
+            return;
         }
 
-        Node currNode = head;
-
-        while(currNode.next != null){
-            currNode = currNode.next;
+        if(head==null){
+            head=null;
+            return;
         }
+
+        Node secondLast = head;
+        Node Last = head.next;
+
+        while(Last.next != null ){
+            Last = Last.next;
+            secondLast = secondLast.next;
+            // System.out.println(secondLast.data);
+        }
+        secondLast.next = null;
 
     }
 
@@ -77,6 +87,8 @@ public class delete {
         list.insertFirst(5);
         list.insertFirst(6);
         list.deleteFirst();
+        list.deleteLast();
+        // list.deleteFirst();
         
         list.print();
     }
