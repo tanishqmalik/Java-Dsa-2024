@@ -1,0 +1,9 @@
+        // System.out.print("preOrder:-");
+        // tree.preorder(root);
+        // System.out.println();
+        // System.out.print("inOrder:-");
+        // tree.inOrder(root);
+        // System.out.println();
+        // System.out.print("PostOrder:-");
+        // tree.postOrder(root);
+        // System.out.println();
